@@ -1,0 +1,8 @@
+site_name: Skidinstruktörbanken
+theme:
+  name: material
+  language: sv
+  palette:
+    primary: red
+repo_url: https://github.com/Bjorkan/Skidinstruktorbanken
+repo_name: Skidinstruktörbanken
