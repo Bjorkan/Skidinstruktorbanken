@@ -4,5 +4,7 @@ theme:
   language: sv
   palette:
     primary: red
+  icon:
+    repo: fontawesome/brands/github
 repo_url: https://github.com/Bjorkan/Skidinstruktorbanken
 repo_name: Skidinstruktörbanken
