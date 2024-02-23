@@ -37,5 +37,11 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material 
+      - run: pip install mkdocs-material
+        name: Install MkDocs Material
+      - run: pip install "mkdocs-material[imaging]"
+        name: Install MkDocs Material Imaging
+      - run: apt-get install libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev pngquant -y
+        name: Install Cairo Graphics and pngquant
       - run: mkdocs gh-deploy --force
+        name: Build the site
