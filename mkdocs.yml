@@ -10,3 +10,4 @@ repo_url: https://github.com/Bjorkan/Skidinstruktorbanken
 repo_name: Skidinstruktörbanken
 plugins:
   - privacy
+  - failplugin
