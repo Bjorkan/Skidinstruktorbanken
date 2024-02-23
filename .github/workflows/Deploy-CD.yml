@@ -1,4 +1,4 @@
-name: ci 
+name: Continuous Deployment
 on:
   push:
     branches:
