@@ -8,3 +8,6 @@ theme:
     repo: fontawesome/brands/github
 repo_url: https://github.com/Bjorkan/Skidinstruktorbanken
 repo_name: Skidinstruktörbanken
+plugins:
+  - privacy
+  - optimize
